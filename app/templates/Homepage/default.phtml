@@ -1,0 +1,51 @@
+@{block content}
+<h1>Editable datagrid (pre-alfa/draft)</h1>
+
+<h2>Co to umí?</h2>
+<ul>
+	<li>Editovat všechno možné přímo v datagridu</li>
+	<li>KISS - keep it simple, nic nepíšete 2x</li>
+	<li>Propojení s formuláři v Nette</li>
+	<li>Má ošetřeno když více uživatelů vyedituje stejnou buňku. (hashe, které by jste si měli v callbacku pro ukládání zkontrolovat, než data uložíte)</li>
+</ul>
+
+<h2>Optimistická poznámka</h2>
+<p>
+	Tento program je zatím ve fázi vývoje! Na jakékoli dotazy ohledně použití/nasazení nebude brán zřetel.
+	Pokud posunete tento produkt dál, budu rád pokud mi o své modifikaci napíšete.
+	Ideálně pokud se bude jednat o nástupce. Nahradím stávající verzi tou Vaší.<br>
+	Já osobně jsem tento projekt zamrazil (alespoň dočasně), tzn. jestli se bude vyvýjet či nikoli, je čistě a jen na Vás.
+</p>
+
+<h2>Kodéři! Vy to rači vůbec nestahujte!</h2>
+<p>
+	Kód je okomentován dost sporadicky a je zatím ve stádiu: "Jé ono to funguje!".
+	Rozhodně se z něho nesnažte něco naučit, ale hlavně ho neberte jako vzor pro svoje aplikace.
+</p>
+
+<h2>Závislosti</h2>
+<p>
+	Tento projekt je závislý na hromadě dalších (zejména na straně klienta).
+	Na straně serveru vyžaduje Nette 0.9.2 (na té je to tostováno, možná to pojede i na něčem jiném).
+</p>
+
+<h2>Ukázka</h2>
+<p>
+	V této živé ukázce můžete editovat o 106, nic se nikde nesmaže ani nepokazí. :)
+</p>
+
+<h2>Já to chci!</h2>
+<h3>No tak moment, nejdřív LICENCE</h3>
+<p>
+	<a href="http://www.gnu.org/licenses/lgpl.txt">LGPL</a>
+</p>
+<h3>Mno jo, už to bude</h3>
+<p>
+	Teď si to 2x rozmyslete, jestli to fakt chcete stáhnout. Za nic neručím.<br>
+	<a href="{link sosej!}">Sosejte zde!</a><br>
+	Stahuje se to nějak pomalu? Mno, tak nečekejte nečině a přečtěte si 
+	<a href="http://addons.nettephp.com/cs/file-downloader" target="_BLANK">o FileDownloaderu</a>, <a target="_BLANK" href="http://addons.nettephp.com/cs/TabControl">o TabControlu</a> nebo o něčem <a href="http://addons.nettephp.com/cs/" target="_BLANK">dalším</a>.
+</p>
+
+@{widget dataGrid:editable}
+
